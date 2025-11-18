@@ -8,7 +8,7 @@ IMG_SIZE = (224, 224)
 BATCH = 32
 EPOCHS = 10
 
-DATASET_DIR = r"C:\Users\Administrator\Documents\codigos\Ml\stanford_dogs\Images"
+DATASET_DIR = r"./stanford_dogs/Images"
 
 def prepare(ds, shuffle=False):
     # aplica preprocessamento

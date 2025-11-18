@@ -44,7 +44,7 @@ def main():
     class_names = [x.strip() for x in open("dog_class_names.txt").readlines()]
 
     # SUA IMAGEM AQUI
-    image_path = "./meu_animal4.jpg"
+    image_path = "./meu_animal.jpg"
 
     img = load_image(image_path)
     proc = np.expand_dims(preprocess(img.copy()), axis=0)
